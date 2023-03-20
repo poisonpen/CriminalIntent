@@ -12,13 +12,13 @@
         android:fontFamily="@font/amiko"
         android:inputType="text"
         android:text="Title"
+        android:id="@+id/crimeTitle"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5" />
     <EditText
         android:hint="Enter a title for the crime."
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/amiko"
-        android:id="@+id/crimeTitle"
         android:inputType="text"/>
     <TextView
         android:layout_width="match_parent"
@@ -29,8 +29,10 @@
 
     <Button
         android:id="@+id/crimeDate"
+        android:padding="10dp"
+        android:layout_margin="20dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:fontFamily="@font/amiko"
         android:text="Date" />
 
